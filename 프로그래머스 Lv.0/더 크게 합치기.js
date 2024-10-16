@@ -21,22 +21,20 @@
 
 // a ⊕ b = 898 이고, b ⊕ a = 889 입니다. 둘 중 더 큰 값은 898 이므로 898을 return 합니다.
 
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <stdbool.h>
+// #include <stdlib.h>
 
-int solution(int a, int b) {
-    int answer = 0;
-    return answer;
-}
+// int solution(int a, int b) {
+//     int answer = 0;
+//     return answer;
+// }
 
 // 풀이
 
 function solution(a, b) {
-    const atob = String(a) + String(b)
-    const btoa = String(b) + String(a)
-    
-    return atob >= btoa ? Number(atob) : Number(btoa)
+  const atob = String(a) + String(b);
+  const btoa = String(b) + String(a);
+
+  return atob >= btoa ? Number(atob) : Number(btoa);
 }
-
-
