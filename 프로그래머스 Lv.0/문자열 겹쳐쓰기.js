@@ -16,11 +16,10 @@
 // 입출력 예 #2
 
 // 예제 2번의 my_string에서 인덱스 7부터 overwrite_string의 길이만큼에 해당하는 부분은 "29b8UYP"이고 이를 "merS123"로 바꾼 "ProgrammerS123"를 return 합니다
-
 // function solution(my_string, overwrite_string, s) {
-//     const myStr = [...my_string];
-//     myStr.splice(s, overwrite_string.length, overwrite_string)
-//     return myStr.join("")
+//   const myStr = [...my_string];
+//   myStr.splice(s, overwrite_string.length, overwrite_string)
+//   return myStr.join("")
 // }
 
 //풀이
